@@ -64,7 +64,7 @@ const App = () => {
     <DMPWrap>
       <DMPHeader>
         <DMPLogo logo={pkg.name}/>
-        <DMPGHLink link='https://google.com'/>
+        <DMPGHLink link='https://github.com/jawittdesigns/jawdev-react-demo-components'/>
       </DMPHeader>
       <DMPContent>
         <DMPBlurb>

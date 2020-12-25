@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.42cc8b22.chunk.css",
+    "main.js": "./static/js/main.ccf5c024.chunk.js",
+    "main.js.map": "./static/js/main.ccf5c024.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.d0faa964.js",
+    "runtime-main.js.map": "./static/js/runtime-main.d0faa964.js.map",
+    "static/css/2.2f475074.chunk.css": "./static/css/2.2f475074.chunk.css",
+    "static/js/2.750e530d.chunk.js": "./static/js/2.750e530d.chunk.js",
+    "static/js/2.750e530d.chunk.js.map": "./static/js/2.750e530d.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.7d1dec13967f4a12176b7a3fc5e2bff1.js": "./precache-manifest.7d1dec13967f4a12176b7a3fc5e2bff1.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.2f475074.chunk.css.map": "./static/css/2.2f475074.chunk.css.map",
+    "static/css/main.42cc8b22.chunk.css.map": "./static/css/main.42cc8b22.chunk.css.map",
+    "static/js/2.750e530d.chunk.js.LICENSE.txt": "./static/js/2.750e530d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "./static/media/fira-code-latin-ext-400-normal.03c248ad.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0faa964.js",
+    "static/css/2.2f475074.chunk.css",
+    "static/js/2.750e530d.chunk.js",
+    "static/css/main.42cc8b22.chunk.css",
+    "static/js/main.ccf5c024.chunk.js"
+  ]
+}

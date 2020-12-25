@@ -13,7 +13,7 @@ const DMPFooter: React.FC = () => {
 
   return (
     <StyledDMLFooter className='dmp__footer' role='contentinfo'>
-      {currentYear} &copy; jawittdesigns
+      {currentYear} &copy; Jason Witt
     </StyledDMLFooter>
   );
 };

@@ -10,7 +10,6 @@
   },
   "homepage": "https://jaw-dev.github.io/jawdev-react-demo-components/",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
     "access": "public"
   },
   "main": "dist/index.js",

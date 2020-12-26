@@ -12,10 +12,10 @@ const StyledDMPLogo = styled.h1`
 `;
 
 const DMPLogo: React.FC<Props> = ({ logo }) => {
-  let name: string = logo!.replace(/-/g, ' ').toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.substring(1)).join(' ');
+  let name: string = logo!.replace(/-|\//g, ' ').toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.substring(1)).join(' ');
 
-  if (name.includes('Jawdev')) {
-    name = name.replace('Jawdev', '@JAWDev');
+  if (name.includes('@jaw Dev')) {
+    name = name.replace('@jaw Dev', '@JAW-Dev ');
   }
 
   if (name.includes('Example')) {

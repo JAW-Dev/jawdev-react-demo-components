@@ -1,6 +1,6 @@
 {
   "name": "@jaw-dev/react-demo-components",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React components for GitHub pages",
   "author": "jawittdesigns",
   "license": "MIT",
@@ -75,7 +75,6 @@
     "@types/styled-components": "^5.1.7",
     "html-react-parser": "^1.0.0",
     "prismjs": "^1.22.0",
-    "radium": "^0.26.1",
     "styled-components": "^5.2.1"
   }
 }

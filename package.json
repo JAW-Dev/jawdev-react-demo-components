@@ -6,10 +6,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jawittdesigns/jawdev-react-demo-components"
+    "url": "git@github.com:jawittdesigns/jawdev-react-demo-components.git"
   },
   "homepage": "https://jawittdesigns.github.io/jawdev-react-demo-components/",
   "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
     "access": "public"
   },
   "main": "dist/index.js",

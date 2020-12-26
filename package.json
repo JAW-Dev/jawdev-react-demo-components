@@ -1,14 +1,14 @@
 {
-  "name": "@jawdev/react-demo-components",
+  "name": "@jaw-dev/react-demo-components",
   "version": "1.0.0",
   "description": "React components for GitHub pages",
   "author": "jawittdesigns",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:jawittdesigns/jawdev-react-demo-components.git"
+    "url": "git@github.com:JAW-Dev/jawdev-react-demo-components.git"
   },
-  "homepage": "https://jawittdesigns.github.io/jawdev-react-demo-components/",
+  "homepage": "https://jaw-dev.github.io/jawdev-react-demo-components/",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/",
     "access": "public"

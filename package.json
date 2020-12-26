@@ -1,5 +1,5 @@
 {
-  "name": "jawdev-react-demo-components",
+  "name": "@jawde/react-demo-components",
   "version": "1.0.0",
   "description": "React components for GitHub pages",
   "author": "jawittdesigns",
@@ -9,6 +9,9 @@
     "url": "https://github.com/jawittdesigns/jawdev-react-demo-components"
   },
   "homepage": "https://jawittdesigns.github.io/jawdev-react-demo-components/",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",

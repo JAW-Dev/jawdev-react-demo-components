@@ -1,38 +1,9 @@
 // Import packages
-import { Marked, Renderer } from '@ts-stack/markdown';
+import { Marked } from '@ts-stack/markdown';
 import parse from 'html-react-parser';
 
-declare type Align = 'center' | 'left' | 'right';
-
-class RerenderTableCell extends Renderer {
-  table(header: string, body: string): string {
-    return `
-<table>
-<thead>
-${header}</thead>
-<tbody>
-${body}</tbody>
-</table>
-`;
-  }
-
-  tablecell(content: string, flags: { header?: boolean; align?: Align }): string {
-    const type = flags.header ? 'th' : 'td';
-    const alignTag = `<${type} style="text-align:${flags.align}">`;
-    const baseTag = `<${type}>`;
-    const tag = flags.align ? alignTag : baseTag;
-    const newTag = `${tag}${content}</$type>\n`;
-    return newTag;
-  }
-}
-
 export const parseTable = (table: string): string => {
-  Marked.setOptions(
-    {
-      tables: true,
-      renderer: new RerenderTableCell()
-    }
-  );
+  Marked.setOptions({ tables: true });
   const html: any = parse(Marked.parse(table!).replace(/>\s/g, '>'));
 
   return html;

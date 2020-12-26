@@ -4,7 +4,11 @@
   "description": "React components for GitHub pages",
   "author": "jawittdesigns",
   "license": "MIT",
-  "repository": "jawittdesigns/jawdev-react-demo-components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jawittdesigns/jawdev-react-demo-components"
+  },
+  "homepage": "https://jawittdesigns.github.io/jawdev-react-demo-components/",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",

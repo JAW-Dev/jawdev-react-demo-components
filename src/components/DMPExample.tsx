@@ -113,7 +113,7 @@ const DMPExample: React.FC<Props> = ({ code, label }) => {
 
   return (
     <StyledDMLExample className='dmp__example'>
-      <h2>Example</h2>
+      <h2>{label}</h2>
       <StyledDMPCodeWrap className='dmp_code-wrap'>
         <StyledDMPCodePre>
           <StyledDMPCode className='dmp_code language-javascript'>{code}</StyledDMPCode>

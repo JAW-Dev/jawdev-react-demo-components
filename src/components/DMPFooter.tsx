@@ -14,11 +14,11 @@ interface Props {
 
 const DMPFooter: React.FC<Props> = ({ text }) => {
   const currentYear: number = new Date().getFullYear();
-  text = text || '&copy; Jason Witt';
+  text = text || 'Jason Witt';
 
   return (
     <StyledDMLFooter className='dmp__footer' role='contentinfo'>
-      {currentYear} {text}
+      {currentYear} &copy; {text}
     </StyledDMLFooter>
   );
 };

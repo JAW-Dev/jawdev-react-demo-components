@@ -4,7 +4,8 @@ import styled from 'styled-components';
 import Prism from 'prismjs';
 
 interface Props {
-  code?: string
+  code?: string,
+  label?: string
 }
 
 const StyledDMLExample = styled.section`
@@ -103,10 +104,12 @@ const StyledDMPCode = styled.code`
   }
 `;
 
-const DMPExample: React.FC<Props> = ({ code }) => {
+const DMPExample: React.FC<Props> = ({ code, label }) => {
   useEffect(() => {
     Prism.highlightAll();
   }, []);
+
+  label = label || 'Example';
 
   return (
     <StyledDMLExample className='dmp__example'>

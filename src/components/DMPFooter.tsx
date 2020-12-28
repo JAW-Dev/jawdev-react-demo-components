@@ -8,12 +8,17 @@ const StyledDMLFooter = styled.footer`
   font-size: 0.8rem;
 `;
 
-const DMPFooter: React.FC = () => {
+interface Props {
+  text?: string
+}
+
+const DMPFooter: React.FC<Props> = ({ text }) => {
   const currentYear: number = new Date().getFullYear();
+  text = text || '&copy; Jason Witt';
 
   return (
     <StyledDMLFooter className='dmp__footer' role='contentinfo'>
-      {currentYear} &copy; Jason Witt
+      {currentYear} {text}
     </StyledDMLFooter>
   );
 };

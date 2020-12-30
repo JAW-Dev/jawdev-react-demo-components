@@ -1,10 +1,12 @@
 {
   "name": "@jaw-dev/react-demo-components",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "React components for GitHub pages",
   "author": "jawittdesigns",
   "license": "MIT",
-  "repository": { "url": "jaw-dev.github.io/jawdev-react-demo-components" },
+  "repository": {
+    "url": "jaw-dev.github.io/jawdev-react-demo-components"
+  },
   "homepage": "https://jaw-dev.github.io/jawdev-react-demo-components/",
   "publishConfig": {
     "access": "public"
@@ -16,7 +18,7 @@
     "node": ">=10"
   },
   "scripts": {
-    "build": "microbundle-crl --no-compress --format modern,cjs",
+    "build": "microbundle-crl --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",

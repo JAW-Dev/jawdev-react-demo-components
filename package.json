@@ -1,6 +1,6 @@
 {
   "name": "@jaw-dev/react-demo-components",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "React components for GitHub pages",
   "author": "jawittdesigns",
   "license": "MIT",
@@ -30,7 +30,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
